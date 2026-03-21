@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Laboratorio de Git Avanzado y Desarrollo en React JS
 
 Este repositorio ha sido diseñado como un entorno de experimentación técnica para el curso de Talento Tech. El objetivo principal es la convergencia entre el desarrollo de interfaces con React JS y el dominio de estrategias avanzadas de control de versiones.
@@ -53,112 +53,12 @@ A continuación se presentan los enlaces oficiales para la preparación del ento
 Utilice estos bloques de comando para las tareas diarias en el laboratorio:
 
 ### Gestión de Características
-```bash
-# Crear nueva rama de desarrollo para un componente
-git checkout -b feature/nombre-componente
-
-// --- [ REACT JS & VITE ] ---
-npm create vite@latest .      // Iniciar proyecto (Vite)
-npm run dev                   // Correr servidor local
-npm install <package>         // Instalar dependencias
-rafce                         // Snippet: Componente funcional 
-
-// --- [ HOOKS & LOGIC ] ---
-useState                      // Manejo de estados
-useEffect                     // Efectos secundarios (API, DOM)
-useContext                    // Estado global
-useParams                     // Parámetros de URL (Routing)
-
-// --- [ GIT & WORKFLOW ] ---
-git add .                     // Preparar cambios
-git commit -m "feat: ..."     // Documentar avance
-git push origin main          // Subir a la nube
-git pull                      // Bajar cambios
-
-// --- [ TERMINAL SHORTCUTS ] ---
-cd ..        // Volver atrás    |  mkdir      // Crear carpeta
-ls -la       // Ver archivos    |  clear      // Limpiar consola
-code .       // Abrir VS Code   |  touch      // Crear archivo
-
-bruns@BrunoMatrix MINGW64 ~
-$ # --- IDENTIDAD CONFIGURADA ---
-$ git config --global user.name "brunorios21"
-$ git config --global user.email "brunorioscorp@gmail.com"
-
-bruns@BrunoMatrix MINGW64 ~/proyectos
-$ # --- INICIAR PROYECTO NUEVO ---
-$ git init                          # Crear repo local
-$ git remote add origin <url>       # Conectar a GitHub
-
-bruns@BrunoMatrix MINGW64 ~/trabajando
-$ # --- CICLO DIARIO (EL COMBO) ---
-$ git add .                         # Preparar cambios
-$ git commit -m "update: fixes"     # Firmar avance
-$ git push origin main              # ¡A la nube!
-
-bruns@BrunoMatrix MINGW64 ~
-$ git config --list                 # Verificar todo
-
-# Ultima actualizacion: Marzo 2026
-=======
-# TALENTO TECH | REACT JS
-
-## MODALIDAD VIRTUAL
-* 1 Clase virtual sincrónica semanal de 2 hs (obligatoria).
-* 1 Clase de consulta de 1 h (opcional).
-
-## ACREDITACIÓN
-* 70% de asistencia a clases virtuales semanales.
-* Aprobación de cuestionarios parciales de contenidos.
-* Entrega y aprobación de Proyecto Final Integrador.
-
-## DURACIÓN Y CERTIFICACIÓN
-* **Duración:** Cuatrimestral (20 semanas).
-* **Certificación:** Microcredencial oficial del Ministerio de Educación de la Ciudad de Buenos Aires.
+### Gestión de Características
 
 ---
 
-## FUNDAMENTACIÓN
-React se ha consolidado como una de las bibliotecas más relevantes y demandadas en el ámbito del desarrollo Frontend. Su capacidad de crear interfaces de usuario modernas, dinámicas y altamente interactivas la convierte en un estándar para la construcción de aplicaciones web escalables.
+## Tecnologías y Herramientas Utilizadas
 
-Uno de sus principales atributos es la madurez de su ecosistema. Herramientas como Hooks, Context API o React Router no solo optimizan el flujo de trabajo, sino que permiten abordar con eficacia problemáticas comunes en proyectos reales, como la gestión del estado, la autenticación de usuarios, la navegación entre vistas o la integración con APIs. Esto posiciona a React no solo como un recurso técnico, sino como una plataforma de aprendizaje transversal para comprender buenas prácticas de programación, patrones de arquitectura y principios de diseño centrado en el usuario.
-
-A nivel educativo, la enseñanza de React promueve competencias clave para el futuro profesional de los estudiantes. Aprender a modularizar aplicaciones, implementar operaciones CRUD, manejar la lógica de autenticación y desplegar proyectos en entornos de producción son habilidades que incrementan de forma significativa la empleabilidad. En un mercado laboral donde startups, pymes y grandes empresas requieren soluciones digitales ágiles, React se presenta como un lenguaje común que conecta la teoría con la práctica, la academia con la industria.
-
-Asimismo, este curso busca trascender la mera transmisión de conocimientos técnicos, generando un espacio de formación integral. Se fomenta el pensamiento crítico para elegir tecnologías, la capacidad de trabajo colaborativo en entornos virtuales y la atención a la experiencia del usuario como núcleo del desarrollo web. Al implementar un proyecto integrador como un e-commerce funcional, los estudiantes no solo aplican lo aprendido, sino que también vivencian un proceso formativo que emula desafíos propios de equipos profesionales de desarrollo.
-
-En síntesis, fundamentar un trayecto en React implica responder a la necesidad de formar perfiles capaces de desenvolverse en entornos digitales cambiantes, donde la actualización tecnológica es constante y la capacidad de aprendizaje continuo resulta tan importante como el dominio de herramientas específicas. React, por su relevancia, flexibilidad y proyección, es el vehículo ideal para alcanzar este objetivo formativo.
-
----
-
-## OBJETIVOS
-
-### OBJETIVO GENERAL
-Brindar a los estudiantes los conocimientos y habilidades necesarios para diseñar y desarrollar aplicaciones web interactivas con ReactJS, abordando desde la creación de componentes hasta la gestión de estado, el enrutamiento y la autenticación de usuarios. El curso tiene como propósito que los participantes puedan integrar todas estas competencias en un proyecto final funcional (un e-commerce), aplicando operaciones CRUD, manejo de formularios y rutas protegidas. Además, busca fomentar el aprendizaje de buenas prácticas de desarrollo frontend, el trabajo con librerías de estilización modernas y la capacidad de desplegar proyectos en entornos productivos.
-
-### OBJETIVOS ESPECÍFICOS
-* Familiarizar a los estudiantes con los fundamentos de ReactJS y su ecosistema.
-* Desarrollar habilidades para manejar el estado dentro de componentes y globalmente con Context API.
-* Capacitar a los estudiantes para crear y gestionar rutas dinámicas y protegidas.
-* Enseñar la integración de formularios con validación y la implementación de un sistema de autenticación básico.
-* Guiar en la construcción de un proyecto final de e-commerce utilizando conceptos como CRUD y manejo de estados complejos.
-* Introducir buenas prácticas de estilización y diseño para crear aplicaciones web visualmente atractivas y funcionales.
-
----
-
-## RESULTADOS DE APRENDIZAJE
-Al finalizar el curso, los estudiantes serán capaces de:
-1. Crear una aplicación ReactJS desde cero utilizando Vite.
-2. Implementar la gestión de estado utilizando useState y Context API.
-3. Desarrollar rutas dinámicas y protegidas para una navegación fluida y segura.
-4. Construir formularios con validación y manejar la autenticación de usuarios.
-5. Desarrollar un CRUD básico para gestionar productos dentro de un proyecto de e-commerce.
-6. Estilizar una aplicación utilizando librerías como Bootstrap y styled-components.
-7. Desplegar la aplicación final en una plataforma de hosting.
-
----
-
-## TECNOLOGÍAS Y HERRAMIENTAS UTILIZADAS
 El curso aborda el desarrollo full-stack enfocado en el frontend utilizando el siguiente stack tecnológico:
 
 [![React](https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
@@ -198,9 +98,11 @@ El curso aborda el desarrollo full-stack enfocado en el frontend utilizando el s
 ---
 
 ## PROYECTO FINAL INTEGRADOR: E-COMMERCE
+
 El objetivo de este proyecto final es que los estudiantes apliquen todos los conceptos aprendidos durante el curso de ReactJS en la creación de una aplicación de e-commerce básica. El proyecto debe integrar funcionalidades clave como autenticación de usuarios, manejo de productos mediante un CRUD (Crear, Leer, Actualizar, Eliminar), y un carrito de compras.
 
 ### CONTENIDOS MÍNIMOS TÉCNICOS
+
 * **React Router:** Implementación de la librería para manejar navegación simple, avanzada y rutas protegidas.
 * **Context API:** Manejo de estado global para carritos de compras o sistemas de autenticación.
 * **CRUD de productos:** Desarrollo de operaciones Crear, Leer, Actualizar y Eliminar con validación y retroalimentación visual.
@@ -211,5 +113,5 @@ El objetivo de este proyecto final es que los estudiantes apliquen todos los con
 
 ## CONTACTO
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunorios21)[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brunorios21)
->>>>>>> 66b63f15bd0a80c6a1c9f0911d205c844f018ba2
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunorios21)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brunorios21)
