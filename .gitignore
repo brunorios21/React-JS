@@ -7,29 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencias (NUNCA se suben al repo, pesan demasiado)
-node_modules/
-dist/
-dist-ssr/
+node_modules
+dist
+dist-ssr
 *.local
 
-# Editor de código (Configuraciones personales)
+# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# Variables de entorno (Seguridad: datos sensibles)
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-
-# Temporales de Vite
-.vite/
