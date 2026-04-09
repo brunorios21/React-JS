@@ -1,0 +1,13 @@
+.container {
+  /* Contenedor principal que centra el contenido y define el alto mínimo */
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fefefe;
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+}

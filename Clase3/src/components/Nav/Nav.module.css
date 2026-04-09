@@ -1,0 +1,17 @@
+.nav {
+  /* Estilos básicos para la barra de navegación */
+  background: transparent;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.nav a {
+  text-decoration: none;
+  /* usar color de acento para enlaces de navegación */
+  color: #0ea5a4;
+  font-weight: 600;
+}

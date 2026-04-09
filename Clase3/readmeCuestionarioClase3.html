@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cuestionario — Clase 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:#f5f7fb;margin:0;color:#0f172a}
+      .wrap{max-width:900px;margin:32px auto;padding:22px}
+      .card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+      h1{margin:0 0 8px}
+      .q{margin:14px 0;padding:12px;border-left:4px solid #0ea5a4;background:#fbfdff}
+      .ans{color:#065f46;font-weight:600}
+      .ex{color:#6b7280;font-size:14px;margin-top:6px}
+    </style>
+  </head>
+  <body>
+    <div class="wrap card">
+      <h1>Cuestionario — Clase 3</h1>
+      <p class="ex">Respuestas con explicación técnica. Útil para repaso y evaluación.</p>
+
+      <div class="q">
+        <div><strong>1.</strong> ¿Qué función cumple el componente Item?</div>
+        <div class="ans">Respuesta: b) Componente presentacional.</div>
+        <div class="ex">Explicación: renderiza props y no contiene lógica de negocio.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>2.</strong> ¿Por qué modificar la cantidad en un Item no afecta a los otros?</div>
+        <div class="ans">Respuesta: d) Estado local.</div>
+        <div class="ex">Cada instancia mantiene su propio estado a menos que se eleve.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>3.</strong> ¿Para qué se usa `.map()` sobre `productos`?</div>
+        <div class="ans">Respuesta: a) Para crear un array de componentes Item.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>4.</strong> ¿Qué hace `{...prod}`?</div>
+        <div class="ans">Respuesta: d) Pasa las propiedades como props individuales.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>5.</strong> ¿Por qué separar contenedores y presentacionales?</div>
+        <div class="ans">Respuesta: b) Separar responsabilidades (lógica vs UI).</div>
+      </div>
+
+      <div class="q">
+        <div><strong>6.</strong> ¿Forma correcta de actualizar estado?</div>
+        <div class="ans">Respuesta: c) Usar la función de `useState`.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>7.</strong> ¿Por qué usar `key` en listas?</div>
+        <div class="ans">Respuesta: b) Para que React identifique elementos cambiados.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>8.</strong> ¿Qué devuelve `useState`?</div>
+        <div class="ans">Respuesta: c) Un array [valor, setter].</div>
+      </div>
+
+      <div class="q">
+        <div><strong>9.</strong> ¿Cómo asociar función a onClick?</div>
+        <div class="ans">Respuesta: d) `<button onClick={miFuncion}>`.</div>
+      </div>
+
+      <div class="q">
+        <div><strong>10.</strong> Responsabilidad de ItemListContainer?</div>
+        <div class="ans">Respuesta: b) Lógica y obtención de datos.</div>
+      </div>
+
+      <p class="ex">Notas: para una versión interactiva puedo añadir anclas, navegación y export a PDF.</p>
+    </div>
+  </body>
+</html>

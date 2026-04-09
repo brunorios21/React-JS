@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Clase 3 — Resumen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root{--bg:#f6f7fb;--card:#fff;--muted:#6b7280;--accent:#0ea5a4}
+      html,body{height:100%;margin:0;background:var(--bg);font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+      .wrap{max-width:1100px;margin:36px auto;padding:28px}
+      .hero{background:linear-gradient(180deg,rgba(255,255,255,0.6),transparent);padding:28px;border-radius:10px}
+      h1{margin:0 0 8px;font-size:28px}
+      p.lead{color:var(--muted);margin:0 0 18px}
+      .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+      .card{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+      .small{font-size:13px;color:var(--muted)}
+      pre{background:#0f172a;color:#fff;padding:12px;border-radius:8px;overflow:auto}
+      a.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+      ul.nom{padding-left:1rem}
+      @media(max-width:880px){.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="hero card">
+        <h1>Clase 3 — Layout en React</h1>
+        <p class="lead">Estructura, composición de componentes y estilos (CSS Modules vs global). Guía rápida y lista de archivos clave.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+          <a class="btn" href="readmeCuestionarioClase3.md">Ver cuestionario</a>
+          <a class="btn" href="http://localhost:5173/" target="_blank">Abrir app (dev)</a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <div class="card">
+            <h2>Objetivos</h2>
+            <ul class="nom">
+              <li>Estructurar un proyecto React con Vite.</li>
+              <li>Implementar un `Layout` reutilizable.</li>
+              <li>Usar CSS Modules para estilos aislados.</li>
+              <li>Construir componentes reutilizables (TarjetaProducto, Gallery).</li>
+            </ul>
+          </div>
+
+          <div class="card" style="margin-top:14px">
+            <h2>Cómo ejecutar</h2>
+            <p class="small">Desde la carpeta <code>Clase3</code>:</p>
+            <pre>npm install
+npm run dev</pre>
+            <p class="small">Abrir <strong>http://localhost:5173/</strong> en Chrome para mejores resultados.</p>
+          </div>
+
+          <div class="card" style="margin-top:14px">
+            <h2>Ejercicios implementados</h2>
+            <ol>
+              <li>Layout con Header (Nav) y Footer.</li>
+              <li>TarjetaProducto con CSS Module.</li>
+              <li>Gallery con 3 tarjetas de ejemplo.</li>
+            </ol>
+          </div>
+
+          <div class="card" style="margin-top:14px">
+            <h2>Próximos pasos (sugeridos)</h2>
+            <ul>
+              <li>Mover productos a <code>src/data/productos.json</code> y crear hook <code>useProductos()</code>.</li>
+              <li>Añadir pruebas con React Testing Library.</li>
+              <li>Implementar carrito con Context o Zustand.</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h3>Archivos clave</h3>
+            <ul class="small">
+              <li><code>src/layout/Layout.jsx</code></li>
+              <li><code>src/layout/Header.jsx</code></li>
+              <li><code>src/layout/Footer.jsx</code></li>
+              <li><code>src/components/TarjetaProducto/TarjetaProducto.jsx</code></li>
+              <li><code>src/components/Gallery/Gallery.jsx</code></li>
+            </ul>
+          </div>
+
+          <div class="card" style="margin-top:12px">
+            <h4>Consejos rápidos</h4>
+            <p class="small">Usa CSS Modules para estilos por componente. Añade atributos <code>alt</code> y roles para accesibilidad.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

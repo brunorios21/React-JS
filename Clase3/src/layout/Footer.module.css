@@ -1,0 +1,8 @@
+.footer {
+  /* Estilos del pie de página */
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+  text-align: center;
+}

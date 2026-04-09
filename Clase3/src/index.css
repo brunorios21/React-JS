@@ -1,0 +1,12 @@
+/* Estilos globales base para la aplicación */
+:root{
+  --bg: #f7f7f7;
+  --text: #111827;
+  --accent: #0ea5a4; /* color de acento global */
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
