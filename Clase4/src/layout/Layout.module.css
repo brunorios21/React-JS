@@ -1,0 +1,15 @@
+.container {
+  /* Contenedor principal que centra el contenido y define el alto mínimo */
+  /* Fondo profesional oscuro */
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0f172a; /* Fondo oscuro profesional */
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+  background: #0f172a; /* Fondo oscuro profesional */
+}
