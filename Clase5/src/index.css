@@ -1,0 +1,17 @@
+/* Estilos globales base para la aplicación */
+/* Variables de color profesionales */
+:root{
+  --bg: #0f172a;              /* Fondo oscuro profesional */
+  --bg-secondary: #1e293b;    /* Fondo secundario */
+  --text: #f1f5f9;            /* Texto claro */
+  --accent: #06b6d4;          /* Azul cian vibrante */
+  --accent-hover: #0891b2;    /* Azul cian más oscuro */
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s ease;
+}

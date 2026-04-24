@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    width: 220px;
+}
+
+.favIcon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: right;
+    transition: transform 0.2s;
+}
+
+.favIcon:hover { transform: scale(1.2); }
+
+.counter {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.addBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.addBtn:disabled { background-color: #333; cursor: not-allowed; }

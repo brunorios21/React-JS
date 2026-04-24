@@ -1,0 +1,9 @@
+.footer {
+  /* Estilos del pie de página profesional oscuro */
+  background: #1e293b; /* Fondo secundario oscuro */
+  padding: 1rem 2rem;
+  border-top: 2px solid #06b6d4; /* Borde azul cian */
+  margin-top: 2rem;
+  text-align: center;
+  color: #f1f5f9; /* Texto claro */
+}
