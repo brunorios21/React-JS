@@ -1,0 +1,39 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(2,6,23,0.08);
+  overflow: hidden;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.title {
+  margin: 0;
+  font-size: 1rem;
+}
+.price {
+  margin: 0;
+  color: #16a34a;
+  font-weight: 700;
+}
+.button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  /* botón usa color de acento principal */
+  background: #0ea5a4;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

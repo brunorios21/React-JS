@@ -1,0 +1,26 @@
+.nav {
+  /* Estilos básicos para la barra de navegación */
+  /* Fondo transparente para que se vea el header */
+  background: transparent;
+}
+.nav ul {
+  /* Lista sin estilos por defecto */
+  list-style: none;
+  /* Distribución horizontal de elementos */
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.nav a {
+  /* Enlaces de navegación con estilo profesional */
+  text-decoration: none;
+  /* Usar color azul cian profesional para enlaces */
+  color: #06b6d4;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  /* Efecto hover más oscuro */
+  color: #0891b2;
+}
