@@ -1,8 +1,8 @@
-# 📚 Clase 10 - CRUD en ReactJS
+#  Clase 10 - CRUD en ReactJS
 
 Proyecto educativo que implementa un sistema completo de CRUD (Crear, Leer, Actualizar, Eliminar) usando React y Firebase.
 
-## 🎯 Objetivos de la Clase
+##  Objetivos de la Clase
 
 - ✅ Comprender el ciclo CRUD
 - ✅ Implementar operaciones Create con `addDoc()`
@@ -11,7 +11,7 @@ Proyecto educativo que implementa un sistema completo de CRUD (Crear, Leer, Actu
 - ✅ Gestionar estado con hooks
 - ✅ Integración con Firestore
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
@@ -28,7 +28,7 @@ src/
 └── index.css                    # Estilos globales
 ```
 
-## 🚀 Configuración Inicial
+##  Configuración Inicial
 
 ### 1. Instalar Dependencias
 
@@ -78,7 +78,7 @@ Documento de ejemplo:
 }
 ```
 
-## 🛠️ Iniciar el Proyecto
+##  Iniciar el Proyecto
 
 ```bash
 npm run dev
@@ -86,7 +86,7 @@ npm run dev
 
 La aplicación se abrirá en `http://localhost:3000`
 
-## 📖 Conceptos Clave
+##  Conceptos Clave
 
 ### 1. READ - Leer Datos
 
@@ -120,7 +120,7 @@ const docRef = doc(db, "Productos nacionales", id);
 const resp = await getDoc(docRef);
 ```
 
-## 🎓 Componentes Principales
+##  Componentes Principales
 
 ### NavBar
 Menú de navegación con links a:
@@ -145,7 +145,7 @@ Panel CRUD completo para productos:
 - READ: Lista de productos
 - DELETE: Botón para eliminar productos
 
-### GestionCupones ⭐ (Ejercicio Práctico)
+### GestionCupones  (Ejercicio Práctico)
 Panel de gestión de cupones con:
 - **CREATE**: Formulario con validación
   - Código del cupón (texto)
@@ -153,13 +153,13 @@ Panel de gestión de cupones con:
 - **READ**: Tabla de cupones
 - **DELETE**: Botón para eliminar con confirmación
 
-## 💡 Flujo de Datos
+##  Flujo de Datos
 
 ```
 Usuario → Evento → Handler → Firebase → Update State → UI Actualizada
 ```
 
-## ✅ Ejercicio Práctico - Gestión de Cupones
+##  Ejercicio Práctico - Gestión de Cupones
 
 ### Requerimientos Funcionales:
 
@@ -185,13 +185,13 @@ Usuario → Evento → Handler → Firebase → Update State → UI Actualizada
 - Ruta: `/admin/cupones`
 - Link en NavBar
 
-## 📚 Recursos
+##  Recursos
 
 - [Documentación Firebase](https://firebase.google.com/docs/firestore)
 - [Documentación React Router](https://reactrouter.com/)
 - [React Hooks](https://react.dev/reference/react)
 
-## 🔍 Debugging
+##  Debugging
 
 Si algo no funciona:
 
@@ -200,7 +200,7 @@ Si algo no funciona:
 3. Confirma que las colecciones existen en Firestore
 4. Valida que tengas permisos de lectura/escritura en Firestore Rules
 
-## 🎯 Próximos Pasos
+##  Próximos Pasos
 
 - Implementar UPDATE (Actualizar productos/cupones)
 - Agregar autenticación
@@ -210,4 +210,4 @@ Si algo no funciona:
 
 ---
 
-**Hecho con ❤️ para Clase 10 - TalentoLab**
+**Hecho con ❤️ para Clase 10 - TalentoTechLab**
