@@ -1,16 +1,16 @@
-Clase 11 - Actualización y validación
+## Clase 11 - Actualización y validación
 
-Introducción
+## Introducción
 
 En esta clase se completa el ciclo CRUD con la funcionalidad de actualizar productos en Firebase y se añade validación básica de formularios en React.
 
-Objetivos
+## Objetivos
 
 - Implementar la edición de productos existentes.
 - Reutilizar el formulario de creación para modo edición.
 - Validar los datos del formulario antes de enviarlos a Firebase.
 
-Flujo de la función de actualización
+## Flujo de la función de actualización
 
 1. El componente de gestión guarda el producto seleccionado en un estado `productoAEditar`.
 2. Cuando el usuario hace clic en "Editar", se asigna el producto a `productoAEditar`.
@@ -193,13 +193,3 @@ Puntos clave
 - `useEffect` debe depender de `productoAEditar` para recargar el formulario cuando cambia.
 - En modo edición se usa `updateDoc`, en modo creación `addDoc`.
 
-Preguntas de reflexión
-
-- ¿Por qué es importante incluir `productoAEditar` en el array de dependencias de `useEffect`?
-- ¿Cuáles son las ventajas y desventajas de la validación con HTML5 versus la validación manual en `onSubmit`?
-
-Próximos pasos
-
-- Implementar autenticación y rutas protegidas.
-- Crear un contexto de sesión para manejar el estado del usuario.
-- Desarrollar un componente de login con Firebase.
